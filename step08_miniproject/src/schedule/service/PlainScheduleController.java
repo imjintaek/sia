@@ -15,7 +15,7 @@ import schedule.view.RunningEndView;
 
 public class PlainScheduleController {
 
-	//CREATE/////////////////////////////////////////////////////////////////////////////
+	//CREATE////////////////////////////////////////////////////////////////////////
 	public static void insertAirPlane(String airplane_id, String name) {
 		try {
 			RunningEndView.showMessage(AirplaneDAO.insertAirPlane(airplane_id, name));
@@ -41,7 +41,7 @@ public class PlainScheduleController {
 	}
 	
 	
-	//READ///////////////////////////////////////////////////////////////////////////////
+	//READ//////////////////////////////////////////////////////////////////////
 	public static void getAirPlaneList()  {
 		try {
 			RunningEndView.dataListView(AirplaneDAO.getAirPlaneList());
