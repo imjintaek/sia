@@ -1,0 +1,6 @@
+
+step08_miniproject/.classpath
+step08_miniproject/.project
+step08_miniproject/.settings/org.eclipse.jdt.core.prefs
+*.class
+step08_miniproject/db.properties
